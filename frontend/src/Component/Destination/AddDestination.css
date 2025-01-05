@@ -1,0 +1,38 @@
+/* Add Destination Form Styles */
+.add-destination-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.add-destination-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  height: 100px;
+  resize: none;
+}
+
+form button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005bb5;
+}

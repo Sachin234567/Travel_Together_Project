@@ -1,0 +1,138 @@
+/* Container for the join destination page */
+.join-destination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Styled form wrapper */
+.join-destination-form-wrapper {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Title styling */
+.join-destination-form-wrapper h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input fields and select dropdown */
+.join-destination-form-wrapper input,
+.join-destination-form-wrapper select {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #555;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.join-destination-form-wrapper input:focus,
+.join-destination-form-wrapper select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit button */
+.join-destination-form-wrapper button {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  font-size: 1rem;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.join-destination-form-wrapper button:hover {
+  background-color: #0056b3;
+}
+
+/* Error and success messages */
+.error-message,
+.success-message {
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.error-message {
+  color: #e74c3c;
+}
+
+.success-message {
+  color: #2ecc71;
+}
+
+/* Label styling */
+.join-destination-form-wrapper label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+}
+
+/* For smaller devices */
+@media (max-width: 480px) {
+  .join-destination-form-wrapper {
+    padding: 20px;
+  }
+
+  .join-destination-form-wrapper h2 {
+    font-size: 1.5rem;
+  }
+}
+.view-joined-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.view-joined-button:hover {
+  background-color: #45a049;
+}
+
+.joined-destinations-wrapper {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
